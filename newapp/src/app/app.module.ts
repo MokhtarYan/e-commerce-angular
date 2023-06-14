@@ -19,9 +19,18 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductsHeaderComponent } from './components/products-header/products-header.component';
+import { FiltersComponent } from './components/filters/filters/filters.component';
+import { ProductBoxComponent } from './components/filters/product-box/product-box.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, ProductsHeaderComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    ProductsHeaderComponent,
+    FiltersComponent,
+    ProductBoxComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
